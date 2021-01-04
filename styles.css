@@ -11,9 +11,36 @@
 }
 
 .interest {
-    flex-basis: 16%;  /* Make each child element the same width */
     border: 1px dotted crimson;
     padding: 1em;
     margin: 0.5em;
     text-align: center; /* Center align the text in the boxes */
+}
+
+.pageHeader {
+    text-align: center;
+    margin: 1em;
+}
+
+.list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.shop {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    border: 1px dotted black;
+    width: 25%;
+}
+
+.career-info {
+    text-align: center;
+    text-emphasis: bold;
+}
+
+.image {
+    text-align: center;
 }
